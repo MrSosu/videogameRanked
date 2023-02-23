@@ -9,6 +9,6 @@ Ogni utente ha un id univoco e uno username, usato per le classifiche.
 Implementare le seguenti operazioni:
 • inserisci utente: crea un utente
 • inserisci videogioco: crea e inserisce un videogioco nel sistema
-• inserisci partita: dato l'id di un utente, l'id di un videogioco e un punteggio, aggiorna le classifiche
-• classifica di un videogioco: dato un id, restituisce la classifica (top 3) del videogioco con quell'id
+• inserisci partita: dato un utente, un videogioco e un punteggio, aggiorna le classifiche
+• classifica di un videogioco: dato un videogioco, restituisce la classifica (top 3) del videogioco 
 in formato username:punteggio dei primi.
