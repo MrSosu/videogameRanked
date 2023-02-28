@@ -43,4 +43,12 @@ public class Videogame {
     public void setClassificaLocale(HashMap<Utente, Integer> classificaLocale) {
         this.classificaLocale = classificaLocale;
     }
+
+    /**
+     * questo metodo prende in input un utente e un punteggio (record per quel
+     * videogame) e aggiorna la classifica locale del videogame stesso.
+     * @param u un utente
+     * @param score un intero che rappresenta un punteggio
+     */
+    public void addUtente(Utente u, int score) { classificaLocale.put(u, score); }
 }
